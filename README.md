@@ -2,9 +2,10 @@
 
 Code-along for setting up devise-JWT in rails application. 
 Instructions are found [here](https://medium.com/ruby-daily/a-devise-jwt-tutorial-for-authenticating-users-in-ruby-on-rails-ca214898318e#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImNhMDA2MjBjNWFhN2JlOGNkMDNhNmYzYzY4NDA2ZTQ1ZTkzYjNjYWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NDI3OTc3OTIsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNzUxOTMwMTkyMzQ5NDIwNzIzOCIsImVtYWlsIjoieml2a292aWNtaWxhbjE5ODdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJNaWxhbiBaaXZrb3ZpYyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHZ2pXd2hxOXktekQ3VTIzdjc4VWxQRENuNER4RDFzY0V4NUlXZ0g9czk2LWMiLCJnaXZlbl9uYW1lIjoiTWlsYW4iLCJmYW1pbHlfbmFtZSI6IlppdmtvdmljIiwiaWF0IjoxNjQyNzk4MDkyLCJleHAiOjE2NDI4MDE2OTIsImp0aSI6IjkzZjUxYWM2Y2FjNmRhYmJhMDY0NGM0N2U2MmJmNGY4NzZkOTA4YzAifQ.KTR8LMWjnbPEx4rfXVzWuI1of5JOI9WqyE0xutbfi31_g2MxW9Sff6xhXWkxWomA0MVHBk7z9AYLqgeUFmFJJgDGEl9NH5Xts8IDFinQ8XmEcQ1dTc9vkM-GuYLZ8-fWNEHRRxrEngvuvvXhJhXaElcVzu612Z-PWd_tyk8lyxy7R4ZdHPqKajNsoC_yhKfgfAzBlcOi2pTBWWd9-xInFcBSK95pYZzfBeQHdgJQ-MapDMW-cC8whyS6W0KMScpVsuou49JuZh3ZtdMn7FCoIEOOoA2ZIChSsKDAVlucrjdVwn5C1qisQYP9aQQ3K1FkakXEeTKwrczCXaCMAxmtfg).
+___
 
-## My notes
-commands and explanation: 
+## My notes:
+### commands and explanation: 
 
 
 1. 
@@ -26,12 +27,11 @@ adding gems
 3. enable `cors.rb`
    in `config/initializers/cors.rb`
 
-   ``` 
-   origins '*'
+``` 
+origins '*'
    
-   ```
-
-4. setup devise generator
+```
+4. setup devise generator:
    `rails g devise:install` 
 
 5. 
@@ -55,6 +55,8 @@ adding gems
 
 
     If we need anything else as User model attributes we can run this: 
-    
+
     `rails g devise User <new_attribute_1> <new_attribute_2>`
+
+6. 
 
