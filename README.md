@@ -58,5 +58,7 @@ origins '*'
 
     `rails g devise User <new_attribute_1> <new_attribute_2>`
 
-6. 
+6. Create controller:
+
+`rails g controller users/sessions_controller`
 
