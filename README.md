@@ -66,3 +66,10 @@ origins '*'
 
 ` rails g controller users/registrations_controller`
 
+8. create members_controller:
+
+`rails g controller members_controller`
+
+
+0fa2ff3d42fbba5182a24391f7751fe4d729d3c372faad144f7eb6bd1dcfc5cd2f1b3b981aea8165dce94b13522b6543b25af9dde29e3a72bd40687f461d10d2
+
