@@ -62,3 +62,7 @@ origins '*'
 
 `rails g controller users/sessions_controller`
 
+7. create new registration controller: 
+
+` rails g controller users/registrations_controller`
+
